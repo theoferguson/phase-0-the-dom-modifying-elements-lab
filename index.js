@@ -6,5 +6,8 @@ newHeader.id = "victory";
 
 document.body.appendChild(newHeader);
 
-document.getElementById('victory').innerHTML = 'THEO is the champion';
+newHeader.innerHTML = 'THEO is the champion';
 
+const h1 = document.createElement("h1")
+h1.innerText = "HELLO"
+document.body.append(h1)
